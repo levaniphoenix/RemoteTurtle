@@ -10,8 +10,7 @@ module com.levaniphoenix.remoteturtle {
     requires java.sql;
     requires javax.websocket.api;
     requires slf4j.api;
-    requires org.testng;
 
-    opens com.levaniphoenix.remoteturtle to javafx.fxml ,org.testng ;
+    opens com.levaniphoenix.remoteturtle to javafx.fxml;
     exports com.levaniphoenix.remoteturtle;
 }
