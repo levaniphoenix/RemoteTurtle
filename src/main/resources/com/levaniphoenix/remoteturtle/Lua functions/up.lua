@@ -12,4 +12,6 @@ local upResult,upTable = turtle.inspectUp()
 table["upResult"] = upResult
 table["upBlock"] = upTable
 
+table["downResult"] = false
+
 return table
